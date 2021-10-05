@@ -1,7 +1,7 @@
 <script>
 	jQuery(function($) {
 		$(document).ready(function() {
-			$('.review-slider > .elementor-container').slick({
+			$('.listing-slider > .elementor-container').slick({
 				dots: false,
 				arrows: false,
 				infinite: true,
