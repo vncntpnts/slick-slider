@@ -1,0 +1,38 @@
+/*Slick Slider*/
+.listing-slider .slick-list.draggable {
+    margin-right: -55%;
+}
+.review-item {
+    margin-right: 25px;
+}
+
+.review-item .elementor-image-box-title {
+    position: relative;
+}
+
+.review-item .elementor-image-box-title:before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: #283B62;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .review-item {
+        margin-right: 0;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .listing-slider .slick-list.draggable {
+        margin-right: 0;
+    }
+}
+
+/* Slick Slider */
